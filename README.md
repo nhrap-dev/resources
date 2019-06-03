@@ -17,6 +17,10 @@ i.	```git push -f --set-upstream origin master```
 2)	```git push origin name_of_your_branch```
 ### View all branches
 •	```git branch -a```
+### Delete Branch
+* locally: ```git branch -d branch_name```
+           Force delete ```git branch -D branch_name```
+* remote: ```git push <remote_name> --delete <branch_name>```
 ## Clone repository:
 1)	Copy https clone url
 >img here 
