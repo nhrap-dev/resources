@@ -30,4 +30,12 @@ i.	```git push -f --set-upstream origin master```
 2)	Open terminal
 3)	```cd C:/local/repository/directory```
 4)	```git clone https://github.com/nhrap-dev/example.git```
-
+## Trouble shooting
+### git push - not recognizing file deletion
+1) ```rm -rf .git```
+2) ```git init```
+3) ```git remote add origin https://github.com/nhrap-dev/example.git```
+4) ```git checkout -b exampleBranch```
+5) ```git add -A```
+6) ```git commit -m "your message here"```
+7) ```git push -f --set-upstream origin exampleBranch```
